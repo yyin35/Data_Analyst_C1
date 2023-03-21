@@ -146,8 +146,7 @@ describeBy(iris,group='species')
 # the setosa flowers are more circular, with smaller sepal length and larger
 # sepal width. Setosa also has less standard deviation in the petal.
 
-########################################################
-# START HERE
+
 model = multinom(species ~ ., data=train)
 summary(model)
 pred = predict(model, type='class',newdata=test)
@@ -217,7 +216,7 @@ confusionMatrix(data=pred_pc,reference=pc_test$species)
 
 #Q5
 
-df = read.csv('/Users/yin/Desktop/570.616/module7/imports-85.csv',header=F)
+df = read.csv('imports-85.csv',header=F)
 names(df)=c('symboling','normalized-losses','make','fuel-type','aspiration',
               'num-of-doors','body-style','drive-wheels','engine-location','wheel-base',
               'length','width','height','curb-weight','engine-type','num-of-cylinders',
