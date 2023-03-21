@@ -2,4 +2,5 @@
 Yudong's data science 1
 
 # [PCA in R]
-* Demonstrate PCA with couple of examples 
+* Demonstrate PCA with couple of examples
+* ![](/images/PCA_bar1.png) 
